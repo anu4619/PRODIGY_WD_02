@@ -14,8 +14,13 @@ body{
     justify-content: center;
     align-items: center;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .watch{
-    margin-top: 90px;
+    margin-top: 30px;
     position: relative;
 }
 .outer-circle{
@@ -40,7 +45,7 @@ body{
 
 .laps{
     width: 300px;
-    height: 400px;
+    height: 200px;
     overflow: auto;
 }
 
@@ -67,7 +72,7 @@ body{
     
     left: 50%;
     transform: translateX(-50%);
-    
+     
 }
 
 .button{
@@ -84,4 +89,49 @@ body{
 .button:hover{
     background-color: dimgray;
     color: whitesmoke;
+}
+
+.laps{
+    list-style: none;
+    color: dimgray;
+    margin-top: 100px;
+    overflow: auto;
+    position: relative;
+}
+.laps::-webkit-scrollbar{
+    display: none;
+}
+.lap-item{
+    display: inline-block;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+.number{
+    color: rgb(54, 54, 54);
+}
+
+.time-stamp{
+display: inline-block;
+margin-left: 25px;
+}
+
+.lap-clear-button{
+    display: block;
+    width: 150px;
+    margin: 20px auto 0;
+    padding: 10px 0;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    background-color: dimgray;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.lap-clear-button:hover{
+    background-color: darkgray;
 }
