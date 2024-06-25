@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -14,7 +14,10 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+.watch{
+    margin-top: 90px;
+    position: relative;
+}
 .outer-circle{
     width: 300px;
     height: 300px;
@@ -52,4 +55,33 @@ body{
 
 .sec{
     font-size: 42px;
+}
+
+.button-wrapper{
+    width: 250px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid dimgray;
+    background-color: whitesmoke;
+    color: dimgray;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    background-color: dimgray;
+    color: whitesmoke;
 }
