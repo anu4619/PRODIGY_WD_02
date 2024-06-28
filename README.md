@@ -2,7 +2,7 @@
 
 ## Task 02: Stopwatch Web Application
 
-This project is part of Task-02 for Prodigy Infotech's Responsive Landing Page assignment. The objective is to build a stopwatch web application by implementing functions for starting, pausing, and resetting the stopwatch, as well as tracking and displaying lap times, users can accurately measure and record time intervals.
+This project is part of Task-02 for Prodigy Infotech's Stopwatch application assignment. The objective is to build a stopwatch web application by implementing functions for starting, pausing, and resetting the stopwatch, as well as tracking and displaying lap times, users can accurately measure and record time intervals.
 
 ## Features
 
